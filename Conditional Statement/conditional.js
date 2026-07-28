@@ -48,3 +48,13 @@ if (sampleNum2 % 2 === 0) {
     );
 }
 console.log("------------------------------------");
+
+console.log("Task 3:");
+// 1. Check if a person is eligible to vote (age >= 18)
+const sampleAge = 16; // Change the age value to check the functionality
+if (sampleAge >= 18) {
+    console.log(`You are ${sampleAge} dude. Vote for the Right.`);
+} else {
+    console.log(`${sampleAge} years isn't right time to decide for community.`);
+}
+console.log("------------------------------------");
