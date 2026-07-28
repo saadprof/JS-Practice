@@ -1,7 +1,5 @@
 //          ------ Basic (100) tasks ------
 
-// const sampleNum6 = 336;
-// const sampleNum7 = 80;
 // const sampleNum8 = 168;
 // const sampleNum9 = -64;
 // const sampleNum10 = 40;
@@ -69,3 +67,14 @@ if (sampleNum4 > sampleNum5) {
     );
 }
 console.log("------------------------------------");
+
+console.log("Task 5:");
+// 5. Check if one number is smaller than another
+const sampleNum6 = 336;
+const sampleNum7 = 80;
+if (sampleNum6 < sampleNum7) {
+    console.log(`Fortunately ${sampleNum6} is less than ${sampleNum7}`);
+} else {
+    console.log(`${sampleNum6} can't be lesser than ${sampleNum7} in math.`);
+}
+console.log("-------------------------------------");
