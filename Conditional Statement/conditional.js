@@ -1,7 +1,5 @@
 //          ------ Basic (100) tasks ------
 
-// const sampleNum2 = 276;
-// const sampleNum3 = 421;
 // const sampleNum4 = 212;
 // const sampleNum5 = 190;
 // const sampleNum6 = 336;
@@ -24,12 +22,29 @@
 // const sampleNum23 = -57;
 // const sampleNum24 = 215;
 // const sampleNum25 = -91;
+
+console.log("Task 1:");
 // 1. Check if a number is positive, negative, or zero
-const sampleNum1 = 0;
-if(sampleNum1 >= 1){
-    console.log(`Number is a positive.`);
-} else if(sampleNum1 < 0){
-    console.log(`Number is a negative.`);
-} else{
-    console.log(`Number is zero.`);
+const sampleNum1 = 158; //change the number to check if the condition works
+if (sampleNum1 >= 1) {
+    console.log(`${sampleNum1} is a positive.`);
+} else if (sampleNum1 < 0) {
+    console.log(`${sampleNum1} is a negative.`);
+} else {
+    console.log(`${sampleNum1} is what it is.`);
 }
+console.log("------------------------------------");
+
+console.log("Task 2:");
+// 2. Check if a number is even or odd
+const sampleNum2 = 277;
+if (sampleNum2 % 2 === 0) {
+    console.log(
+        `The number ${sampleNum2} is even. The remainder is ${sampleNum2 % 2}`,
+    );
+} else {
+    console.log(
+        `The number ${sampleNum2} is odd. The remainder is ${sampleNum2 % 2}`,
+    );
+}
+console.log("------------------------------------");
