@@ -1,7 +1,5 @@
 //          ------ Basic (100) tasks ------
 
-// const sampleNum4 = 212;
-// const sampleNum5 = 190;
 // const sampleNum6 = 336;
 // const sampleNum7 = 80;
 // const sampleNum8 = 168;
@@ -50,11 +48,24 @@ if (sampleNum2 % 2 === 0) {
 console.log("------------------------------------");
 
 console.log("Task 3:");
-// 1. Check if a person is eligible to vote (age >= 18)
+// 3. Check if a person is eligible to vote (age >= 18)
 const sampleAge = 16; // Change the age value to check the functionality
 if (sampleAge >= 18) {
     console.log(`You are ${sampleAge} dude. Vote for the Right.`);
 } else {
     console.log(`${sampleAge} years isn't right time to decide for community.`);
+}
+console.log("------------------------------------");
+
+console.log("Task 4:");
+// 4. Check if one number is greater than another
+const sampleNum4 = 212; // Change one of the numbers and the output will change.
+const sampleNum5 = 190;
+if (sampleNum4 > sampleNum5) {
+    console.log(`${sampleNum4} is indeeed greater than ${sampleNum5}.`);
+} else {
+    console.log(
+        `${sampleNum4} is less than ${sampleNum5} and is off by ${sampleNum5 - sampleNum4}`,
+    );
 }
 console.log("------------------------------------");
