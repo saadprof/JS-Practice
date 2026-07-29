@@ -88,13 +88,33 @@ if (sampleNum8 === sampleNum9) {
 }
 console.log("------------------------------------");
 
-
-console.log('Task 7:');
+console.log("Task 7:");
 // 7. Check if a character is a vowel or a consonant
-const sampleChar = 'a'; // This condition has a major flaw. If input is vowel in uppercase, it'll be considered as consonent.
+const sampleChar = "a"; // This condition has a major flaw. If input is vowel in uppercase, it'll be considered as consonant.
 const upperSampleChar = sampleChar.toUpperCase(); // The flaw has been fixed.
-if(upperSampleChar == 'A' || upperSampleChar == 'E' || upperSampleChar == 'I' || upperSampleChar == 'O' || upperSampleChar == 'U'){
+if (
+    upperSampleChar == "A" ||
+    upperSampleChar == "E" ||
+    upperSampleChar == "I" ||
+    upperSampleChar == "O" ||
+    upperSampleChar == "U"
+) {
     console.log(`The '${sampleChar}' character is a vowel.`);
-} else{
+} else {
     console.log(`'${sampleChar}' is a consonant`);
 }
+console.log("-----------------------------------");
+
+console.log("Task 8:");
+// 8. Determine if a year is a leap year
+const sampleYear1 = 2141;
+if (
+    sampleYear1 % 4 === 0 ||
+    sampleYear1 % 100 === 0 ||
+    sampleYear1 % 400 === 0
+) {
+    console.log(`Yey! The year ${sampleYear1} is a leap year.`);
+} else {
+    console.log(`No. ${sampleYear1} is not a leap year.`);
+}
+console.log("-----------------------------------");
