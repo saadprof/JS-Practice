@@ -84,6 +84,17 @@ const sampleNum9 = 68;
 if (sampleNum8 === sampleNum9) {
     console.log(`It's a  tie. Both ${sampleNum8} and ${sampleNum9} are equal.`);
 } else {
-    console.log(`${sampleNum8} and ${sampleNum9} are same.`);
+    console.log(`${sampleNum8} and ${sampleNum9} are not same.`);
 }
 console.log("------------------------------------");
+
+
+console.log('Task 7:');
+// 7. Check if a character is a vowel or a consonant
+const sampleChar = 'a'; // This condition has a major flaw. If input is vowel in uppercase, it'll be considered as consonent.
+const upperSampleChar = sampleChar.toUpperCase(); // The flaw has been fixed.
+if(upperSampleChar == 'A' || upperSampleChar == 'E' || upperSampleChar == 'I' || upperSampleChar == 'O' || upperSampleChar == 'U'){
+    console.log(`The '${sampleChar}' character is a vowel.`);
+} else{
+    console.log(`'${sampleChar}' is a consonant`);
+}
