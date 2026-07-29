@@ -1,7 +1,5 @@
 //          ------ Basic (100) tasks ------
 
-// const sampleNum8 = 168;
-// const sampleNum9 = -64;
 // const sampleNum10 = 40;
 // const sampleNum11 = 108;
 // const sampleNum12 = -111;
@@ -78,3 +76,14 @@ if (sampleNum6 < sampleNum7) {
     console.log(`${sampleNum6} can't be lesser than ${sampleNum7} in math.`);
 }
 console.log("-------------------------------------");
+
+console.log("Task 6:");
+// 6. Check if two numbers are equal
+const sampleNum8 = 168;
+const sampleNum9 = 68;
+if (sampleNum8 === sampleNum9) {
+    console.log(`It's a  tie. Both ${sampleNum8} and ${sampleNum9} are equal.`);
+} else {
+    console.log(`${sampleNum8} and ${sampleNum9} are same.`);
+}
+console.log("------------------------------------");
