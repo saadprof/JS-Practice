@@ -166,3 +166,11 @@ if (sampleNum10 % 10 === 0) {
     );
 }
 console.log("-----------------------------------");
+
+// 11. Determine if a person can get a driving license (age >= 16)
+const driverAge1 = 17;
+if(driverAge1 >= 16){
+    console.log(`You're ${driverAge1} now. You sure can drive.`);
+} else{
+    console.log(`Only ${driverAge1} years old? Can't drive a TriCycle bruv!`);
+}
