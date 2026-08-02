@@ -167,10 +167,31 @@ if (sampleNum10 % 10 === 0) {
 }
 console.log("-----------------------------------");
 
-// 11. Determine if a person can get a driving license (age >= 16)
+// 11.
+console.log("Determine if a person can get a driving license (age >= 16)");
 const driverAge1 = 17;
-if(driverAge1 >= 16){
+if (driverAge1 >= 16) {
     console.log(`You're ${driverAge1} now. You sure can drive.`);
-} else{
+} else {
     console.log(`Only ${driverAge1} years old? Can't drive a TriCycle bruv!`);
 }
+console.log("-----------------------------------");
+
+// 12.
+console.log(`Check if a triangle is valid given three sides
+If any 2 sides combined are greater than other side is a valid Triangle. 
+If, (a + b > c) and (a + c > b) and (b + c > a) all condition are valid the Triangle will be valid.
+`);
+const triangleSideA = 3;
+const triangleSideB = 6;
+const triangleSideC = 3;
+if (
+    triangleSideA + triangleSideB > triangleSideC &&
+    triangleSideB + triangleSideC > triangleSideA &&
+    triangleSideA + triangleSideC > triangleSideB
+) {
+    console.log(`The Triangle is valid.`);
+} else {
+    console.log(`Triangle is not valid.`);
+}
+console.log('-----------------------------------');
