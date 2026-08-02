@@ -1,6 +1,5 @@
 //          ------ Basic (100) tasks ------
 
-// const sampleNum11 = 108;
 // const sampleNum12 = -111;
 // const sampleNum13 = -138;
 // const sampleNum14 = 31;
@@ -168,7 +167,9 @@ if (sampleNum10 % 10 === 0) {
 console.log("-----------------------------------");
 
 // 11.
-console.log("Determine if a person can get a driving license (age >= 16)");
+console.log(
+    "Task 11: Determine if a person can get a driving license (age >= 16)",
+);
 const driverAge1 = 17;
 if (driverAge1 >= 16) {
     console.log(`You're ${driverAge1} now. You sure can drive.`);
@@ -178,7 +179,7 @@ if (driverAge1 >= 16) {
 console.log("-----------------------------------");
 
 // 12.
-console.log(`Check if a triangle is valid given three sides
+console.log(`Task 12: Check if a triangle is valid given three sides
 If any 2 sides combined are greater than other side is a valid Triangle. 
 If, (a + b > c) and (a + c > b) and (b + c > a) all condition are valid the Triangle will be valid.
 `);
@@ -194,4 +195,18 @@ if (
 } else {
     console.log(`Triangle is not valid.`);
 }
-console.log('-----------------------------------');
+console.log("-----------------------------------");
+
+// 13.
+console.log(
+    `Task 13: Check if a number is a single digit or has multiple digits`,
+);
+const sampleNum11 = 108;
+const sampleNum11ToString = sampleNum11.toString();
+if (sampleNum11ToString.length > 1) {
+    console.log(
+        `${sampleNum11} is ${sampleNum11ToString.length} digits long. Obviously not a single.`,
+    );
+} else {
+    console.log(`${sampleNum11} is a single digit number.`);
+}
