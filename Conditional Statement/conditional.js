@@ -135,7 +135,7 @@ console.log(`Task 10: Check if a number is divisible by 2
             Check if a number is divisible by 3
             Check if a number is divisible by 5
             Check if a number is divisible by 10`);
-const sampleNum10 = 50;
+const sampleNum10 = 660;
 /*  Broken code
     if (sampleNum10 % 2 === 0) {
         console.log(`The number ${sampleNum10} is absolutely divisible by 2.`);
@@ -150,4 +150,19 @@ const sampleNum10 = 50;
         console.log(`${sampleNum10} can't be divided by 2, 3, 5 & 10 cause it's a odd one.`);
     }
 */
+if (sampleNum10 % 10 === 0) {
+    console.log(`As a even number, ${sampleNum10} is divisible by 10`);
+} else if (sampleNum10 % 5 === 0) {
+    console.log(`${sampleNum10} is divisible by 5.`);
+} else if (sampleNum10 % 3 === 0) {
+    console.log(
+        `The number ${sampleNum10} is totally a odd one. divisible by 3.`,
+    );
+} else if (sampleNum10 % 2 === 0) {
+    console.log(`The number ${sampleNum10} is absolutely divisible by 2.`);
+} else {
+    console.log(
+        `${sampleNum10}, the number is very odd. Can't be devided for now.`,
+    );
+}
 console.log("-----------------------------------");
